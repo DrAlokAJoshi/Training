@@ -18,7 +18,7 @@ end
 
 # ╔═╡ 362d05e0-a813-11ef-1fa1-752252e6fbcd
 using PlutoUI, Plots, PlotlyBase, PlotlyKaleido; plotly(size = (360, 360))
-
+# lets check
 # ╔═╡ ea222b14-833d-4848-8cd1-653e3c6a6bbe
 begin
 	slope = @bind m Slider(-10.0:0.1:10.0, 1.0, true)
